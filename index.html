@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>TypeScript Examples - Interfaces and Classes</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        * {
+            font-family: sans-serif;
+            font-size: 16px;
+        }
+
+        #add {
+            background-color: blue;
+            color: white;
+        }
+
+        img {
+            height: 300px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <h1>List of People</h1>
+    </div>
+    <div class="row">
+        <form>
+            <input type="radio" id="student" name="type" value="student">
+            <label for="student">Student</label><br>
+            <input type="radio" id="employee" name="type" value="employee">
+            <label for="employee">Employee</label><br>
+
+            <label for="first-name"></label>
+            <input type="text" id="first-name" placeholder="First Name"/><br>
+
+            <label for="last-name"></label>
+            <input type="text" id="last-name" placeholder="Last Name"/><br>
+
+            <button type="button" id="add">Add</button>
+            <button type="button" id="show-all">Show All Persons Entered</button>
+            <button type="button" id="show-dog">Show A Person's Dog</button>
+
+        </form>
+        <row>
+            <img id="photo" src="">
+            <h2 id="people-output"></h2>
+        </row>
+    </div>
+</div>
+</body>
+<script src="dist/bundle.js"></script>
+</html>
